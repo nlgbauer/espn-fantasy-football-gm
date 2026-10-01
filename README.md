@@ -13,7 +13,7 @@ League scores alone do not tell a manager what to do next. This project compares
 ## Features
 
 - **Weekly overview:** team and league scoring, average weekly points, and hindsight lineup efficiency.
-- **Player decisions:** explicit start/sit, add/drop, and hold recommendations with numerical evidence.
+- **Player decisions:** start/sit recommendations focus on the coming scoring week; add/drop and hold decisions include named players and numerical evidence.
 - **Bye planning:** five weeks of ESPN projections and named replacements for upcoming absences.
 - **Position Analysis:** one range bar per position with league low/high, 25th and 74th percentiles, median, mean, and the managed team's value.
 - **Trade analysis:** one- and two-player packages, both teams' lineup effects, and explicit rejection of marginal deals.
@@ -55,7 +55,7 @@ The owner's existing local job runs Tuesdays at 8 a.m. America/Los_Angeles. It g
 
 - Current decisions compare ESPN projections, not guaranteed results.
 - Pickup analysis models this week and the next four, including byes; it identifies the outgoing player and preserves skill-position depth when streaming kicker or defense.
-- Position distributions and trade long-range values use season-total projection proxies, not verified rest-of-season forecasts.
+- Current position distributions and trade values sum optimized weekly starting lineups from the upcoming week through the league final, including byes and required drops. Completed weeks are excluded; forecasts are estimates and playoff participation is uncertain. Older snapshots retain their original season-total proxy basis.
 - Hindsight efficiency uses completed results and is separate from forward-looking start/sit advice.
 - Available-player search uses a sampled ESPN pool; future availability and waiver costs can change.
 - Historical snapshots may lack fields added later.
