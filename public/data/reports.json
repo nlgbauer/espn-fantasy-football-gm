@@ -1,10 +1,15 @@
 {
   "schema": 1,
-  "exportedAt": "2026-10-01T15:53:10.926Z",
+  "exportedAt": "2026-10-01T16:32:55.821Z",
   "reports": [
     {
+      "remainingHorizon": {
+        "fromWeek": 4,
+        "throughWeek": 17,
+        "basis": "Sum of optimized weekly starting lineups through the league final, with bye weeks set to zero. Completed weeks excluded. Future ESPN forecasts assume projected roles; playoff participation and injuries are uncertain."
+      },
       "actions": {
-        "generatedAt": "2026-10-01T15:31:05.951Z",
+        "generatedAt": "2026-10-01T16:32:34.781Z",
         "week": 4,
         "throughWeek": 8,
         "basis": "ESPN weekly projections for this week and the next four. Add/drop pairs are alternatives, not cumulative. No acquisition, drop or waiver is executed. Kicker and defense streams replace the incumbent at that position to preserve skill-position depth. Future bye plans require a fresh check that week; injury uncertainty and waiver cost still require review.",
@@ -111,10 +116,78 @@
         },
         "positions": [
           {
+            "position": "QB",
+            "rank": 10,
+            "strength": 243.27,
+            "leagueMean": 257.98,
+            "starters": [
+              {
+                "name": "Dak Prescott",
+                "points": 17.33
+              }
+            ],
+            "proposal": {
+              "add": {
+                "name": "Sam Darnold",
+                "position": "QB",
+                "bye": 11,
+                "proTeam": "SEA",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 16.21,
+                  "5": 15.4,
+                  "6": 13.84,
+                  "7": 15.11,
+                  "8": 16.13
+                }
+              },
+              "drop": {
+                "name": "Rome Odunze",
+                "position": "WR",
+                "bye": 10,
+                "proTeam": "CHI",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 8.46,
+                  "5": 8.6,
+                  "6": 8.23,
+                  "7": 8.12,
+                  "8": 7.78
+                }
+              },
+              "availability": "FREEAGENT",
+              "gains": [
+                {
+                  "week": 4,
+                  "gain": 0
+                },
+                {
+                  "week": 5,
+                  "gain": 0
+                },
+                {
+                  "week": 6,
+                  "gain": 0
+                },
+                {
+                  "week": 7,
+                  "gain": 0
+                },
+                {
+                  "week": 8,
+                  "gain": 0
+                }
+              ],
+              "totalGain": 0,
+              "recommended": false,
+              "status": "Proposed — not executed"
+            }
+          },
+          {
             "position": "WR",
             "rank": 7,
-            "strength": 342.29,
-            "leagueMean": 355.09,
+            "strength": 335.67,
+            "leagueMean": 351.95,
             "starters": [
               {
                 "name": "Davante Adams",
@@ -183,70 +256,70 @@
             }
           },
           {
-            "position": "QB",
-            "rank": 6,
-            "strength": 263.03,
-            "leagueMean": 263.41,
+            "position": "D/ST",
+            "rank": 7,
+            "strength": 70.16,
+            "leagueMean": 72.79,
             "starters": [
               {
-                "name": "Dak Prescott",
-                "points": 17.33
+                "name": "Chiefs D/ST",
+                "points": 6.51
               }
             ],
             "proposal": {
               "add": {
-                "name": "Sam Darnold",
-                "position": "QB",
-                "bye": 11,
-                "proTeam": "SEA",
+                "name": "Jets D/ST",
+                "position": "D/ST",
+                "bye": 13,
+                "proTeam": "NYJ",
                 "injury": "ACTIVE",
                 "forecast": {
-                  "4": 16.21,
-                  "5": 15.4,
-                  "6": 13.84,
-                  "7": 15.11,
-                  "8": 16.13
+                  "4": 6.67,
+                  "5": 8.02,
+                  "6": 5.73,
+                  "7": 7.06,
+                  "8": 6.29
                 }
               },
               "drop": {
-                "name": "Rome Odunze",
-                "position": "WR",
-                "bye": 10,
-                "proTeam": "CHI",
+                "name": "Chiefs D/ST",
+                "position": "D/ST",
+                "bye": 5,
+                "proTeam": "KC",
                 "injury": "ACTIVE",
                 "forecast": {
-                  "4": 8.46,
-                  "5": 8.6,
-                  "6": 8.23,
-                  "7": 8.12,
-                  "8": 7.78
+                  "4": 6.51,
+                  "5": 0,
+                  "6": 6.79,
+                  "7": 4.86,
+                  "8": 5
                 }
               },
               "availability": "FREEAGENT",
               "gains": [
                 {
                   "week": 4,
-                  "gain": 0
+                  "gain": 0.16
                 },
                 {
                   "week": 5,
-                  "gain": 0
+                  "gain": 8.02
                 },
                 {
                   "week": 6,
-                  "gain": 0
+                  "gain": -1.06
                 },
                 {
                   "week": 7,
-                  "gain": 0
+                  "gain": 2.2
                 },
                 {
                   "week": 8,
-                  "gain": 0
+                  "gain": 1.29
                 }
               ],
-              "totalGain": 0,
-              "recommended": false,
+              "totalGain": 10.61,
+              "recommended": true,
               "status": "Proposed — not executed"
             }
           }
@@ -505,7 +578,7 @@
       },
       "season": 2026,
       "week": 4,
-      "generatedAt": "2026-10-01T15:31:04.726Z",
+      "generatedAt": "2026-10-01T16:32:33.553Z",
       "team": "Walker Kelce Rangers",
       "comparisons": {
         "throughWeek": 3,
@@ -555,102 +628,102 @@
       "sample": false,
       "needs": [
         {
+          "position": "QB",
+          "rank": 10,
+          "leagueSize": 12,
+          "strength": 243.27,
+          "min": 221.12,
+          "max": 294.76,
+          "mean": 257.98,
+          "p74": 266.41,
+          "median": 261.31,
+          "lower": 245.95,
+          "upper": 267.94,
+          "deficit": 18.04
+        },
+        {
           "position": "WR",
           "rank": 7,
           "leagueSize": 12,
-          "strength": 342.29,
-          "min": 275.92,
-          "max": 423.65,
-          "mean": 355.09,
-          "p74": 402.56,
-          "median": 349.02,
-          "lower": 325.38,
-          "upper": 402.85,
-          "deficit": 6.73
+          "strength": 335.67,
+          "min": 277.44,
+          "max": 419.78,
+          "mean": 351.95,
+          "p74": 394.45,
+          "median": 346.39,
+          "lower": 319.1,
+          "upper": 394.56,
+          "deficit": 10.72
         },
         {
           "position": "D/ST",
           "rank": 7,
           "leagueSize": 12,
-          "strength": 92.1,
-          "min": 58.93,
-          "max": 108.23,
-          "mean": 88.48,
-          "p74": 98.93,
-          "median": 92.51,
-          "lower": 81.51,
-          "upper": 99.22,
-          "deficit": 0.41
-        },
-        {
-          "position": "QB",
-          "rank": 6,
-          "leagueSize": 12,
-          "strength": 263.03,
-          "min": 233.57,
-          "max": 318.06,
-          "mean": 263.41,
-          "p74": 267.69,
-          "median": 262.44,
-          "lower": 247.58,
-          "upper": 268.58,
-          "deficit": -0.58
+          "strength": 70.16,
+          "min": 60.6,
+          "max": 85.47,
+          "mean": 72.79,
+          "p74": 78.97,
+          "median": 73.16,
+          "lower": 66.16,
+          "upper": 79.27,
+          "deficit": 3
         },
         {
           "position": "TE",
           "rank": 4,
           "leagueSize": 12,
-          "strength": 133.37,
-          "min": 80.76,
-          "max": 190.71,
-          "mean": 131.01,
-          "p74": 137.6,
-          "median": 126.91,
-          "lower": 114.78,
-          "upper": 140.92,
-          "deficit": -6.47
+          "strength": 129.79,
+          "min": 75.1,
+          "max": 177.07,
+          "mean": 126.85,
+          "p74": 134.07,
+          "median": 123.38,
+          "lower": 114.35,
+          "upper": 137.44,
+          "deficit": -6.41
         },
         {
           "position": "K",
           "rank": 3,
           "leagueSize": 12,
-          "strength": 131.75,
-          "min": 119.78,
-          "max": 140.62,
-          "mean": 126.23,
-          "p74": 131.17,
-          "median": 124.24,
-          "lower": 121.42,
-          "upper": 131.24,
-          "deficit": -7.51
+          "strength": 121.95,
+          "min": 111.17,
+          "max": 130.42,
+          "mean": 117.18,
+          "p74": 121.46,
+          "median": 115.25,
+          "lower": 112.8,
+          "upper": 121.52,
+          "deficit": -6.7
         },
         {
           "position": "FLEX",
-          "rank": 1,
+          "rank": 3,
           "leagueSize": 12,
-          "strength": 177.87,
-          "min": 126.55,
-          "max": 177.87,
-          "mean": 155.76,
-          "p74": 172.68,
-          "median": 155.41,
-          "lower": 141.94,
-          "upper": 172.83,
-          "deficit": -22.46
+          "strength": 166.66,
+          "min": 122.55,
+          "max": 172.8,
+          "mean": 151.69,
+          "p74": 163.07,
+          "median": 152.03,
+          "lower": 140.27,
+          "upper": 163.52,
+          "deficit": -14.63
         },
         {
           "position": "RB",
           "rank": 1,
           "leagueSize": 12,
-          "strength": 517.51,
-          "min": 298.45,
-          "max": 517.51,
-          "mean": 407.1,
-          "p74": 455.48,
-          "median": 421.47,
-          "lower": 321.52,
-          "upper": 455.84,
-          "deficit": -96.04
+          "strength": 505.93,
+          "min": 294.71,
+          "max": 505.93,
+          "mean": 395.44,
+          "p74": 445.69,
+          "median": 408.13,
+          "lower": 314.95,
+          "upper": 445.72,
+          "deficit": -97.8
         }
       ],
       "performance": {
@@ -806,7 +879,7 @@
           "points": null,
           "weekProjection": 15.28,
           "seasonProjection": 217.06,
-          "ownership": 8.74,
+          "ownership": 8.76,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -829,7 +902,7 @@
           "points": null,
           "weekProjection": 16.98,
           "seasonProjection": 216.68,
-          "ownership": 37.01,
+          "ownership": 37,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -852,7 +925,7 @@
           "points": null,
           "weekProjection": 16.21,
           "seasonProjection": 216.52,
-          "ownership": 49.28,
+          "ownership": 49.43,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -875,7 +948,7 @@
           "points": null,
           "weekProjection": 6.62,
           "seasonProjection": 109.62,
-          "ownership": 19.19,
+          "ownership": 19.4,
           "status": "QUESTIONABLE",
           "availability": "FREEAGENT",
           "compare": {
@@ -898,7 +971,7 @@
           "points": null,
           "weekProjection": 7,
           "seasonProjection": 93.42,
-          "ownership": 29.44,
+          "ownership": 29.41,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -921,7 +994,7 @@
           "points": null,
           "weekProjection": 5.84,
           "seasonProjection": 79.36,
-          "ownership": 26.06,
+          "ownership": 26.14,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -944,7 +1017,7 @@
           "points": null,
           "weekProjection": 7.75,
           "seasonProjection": 113.71,
-          "ownership": 3.97,
+          "ownership": 4,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -990,7 +1063,7 @@
           "points": null,
           "weekProjection": 7.09,
           "seasonProjection": 97.87,
-          "ownership": 36.46,
+          "ownership": 36.39,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1013,7 +1086,7 @@
           "points": null,
           "weekProjection": 6.66,
           "seasonProjection": 91.5,
-          "ownership": 7.49,
+          "ownership": 7.53,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1036,7 +1109,7 @@
           "points": null,
           "weekProjection": 6.44,
           "seasonProjection": 90.67,
-          "ownership": 17.08,
+          "ownership": 17.06,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1059,7 +1132,7 @@
           "points": null,
           "weekProjection": 6.45,
           "seasonProjection": 90.31,
-          "ownership": 19.97,
+          "ownership": 19.95,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1082,7 +1155,7 @@
           "points": null,
           "weekProjection": 8.54,
           "seasonProjection": 126.04,
-          "ownership": 71.3,
+          "ownership": 71.26,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1105,7 +1178,7 @@
           "points": null,
           "weekProjection": 8.92,
           "seasonProjection": 121.41,
-          "ownership": 4.59,
+          "ownership": 4.58,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1128,7 +1201,7 @@
           "points": null,
           "weekProjection": 8.12,
           "seasonProjection": 120.08,
-          "ownership": 19.88,
+          "ownership": 19.77,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1151,7 +1224,7 @@
           "points": null,
           "weekProjection": 3.17,
           "seasonProjection": 92.83,
-          "ownership": 79.03,
+          "ownership": 78.96,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1174,7 +1247,7 @@
           "points": null,
           "weekProjection": 5.08,
           "seasonProjection": 91.67,
-          "ownership": 27.68,
+          "ownership": 27.72,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1197,7 +1270,7 @@
           "points": null,
           "weekProjection": 6.67,
           "seasonProjection": 85.46,
-          "ownership": 8.4,
+          "ownership": 8.6,
           "status": "ACTIVE",
           "availability": "FREEAGENT",
           "compare": {
@@ -1216,7 +1289,267 @@
       ],
       "trades": [
         {
-          "team": "Gl#3c6728",
+          "weeklyEffects": [
+            {
+              "week": 4,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 5,
+              "yours": -0.33,
+              "theirs": 0.69
+            },
+            {
+              "week": 6,
+              "yours": 0,
+              "theirs": 0.08
+            },
+            {
+              "week": 7,
+              "yours": 0.12,
+              "theirs": 0
+            },
+            {
+              "week": 8,
+              "yours": 0,
+              "theirs": 7.98
+            },
+            {
+              "week": 9,
+              "yours": 0,
+              "theirs": 7.59
+            },
+            {
+              "week": 10,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 11,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 12,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 13,
+              "yours": 0.31,
+              "theirs": 0
+            },
+            {
+              "week": 14,
+              "yours": 17.7,
+              "theirs": 0
+            },
+            {
+              "week": 15,
+              "yours": 1.54,
+              "theirs": 0
+            },
+            {
+              "week": 16,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 17,
+              "yours": 0,
+              "theirs": 0
+            }
+          ],
+          "yourGaps": [
+            {
+              "position": "QB",
+              "gain": 19.67,
+              "deficit": 18.04
+            },
+            {
+              "position": "FLEX",
+              "gain": -0.32,
+              "deficit": -14.63
+            }
+          ],
+          "theirGaps": [
+            {
+              "position": "RB",
+              "gain": 16.67,
+              "deficit": 113.43
+            },
+            {
+              "position": "FLEX",
+              "gain": 0.09,
+              "deficit": -10.45
+            },
+            {
+              "position": "QB",
+              "gain": -0.39,
+              "deficit": -2.78
+            }
+          ],
+          "team": "Dr#19b59b",
+          "format": "2-for-1",
+          "give": [
+            {
+              "name": "Jacory Croskey-Merritt",
+              "position": "RB",
+              "slot": "RB",
+              "points": null,
+              "weekProjection": 9.03,
+              "seasonProjection": 106.53,
+              "ownership": 70.36,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            },
+            {
+              "name": "Keenan Allen",
+              "position": "WR",
+              "slot": "WR",
+              "points": null,
+              "weekProjection": 8.95,
+              "seasonProjection": 94.67,
+              "ownership": 44.93,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "receive": [
+            {
+              "name": "Jordan Love",
+              "position": "QB",
+              "slot": "QB",
+              "points": null,
+              "weekProjection": 15.11,
+              "seasonProjection": 212.25,
+              "ownership": 52.65,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "myGain": 19.34,
+          "theirGain": 16.34,
+          "myWeek": 0,
+          "theirWeek": 0,
+          "verdict": "Worth discussing",
+          "rosterNotes": "They must also drop Michael Pittman Jr. (WR); that loss is included. You gain 1 open roster spot; no waiver pickup is assumed.",
+          "valueDifference": 0
+        },
+        {
+          "weeklyEffects": [
+            {
+              "week": 4,
+              "yours": 0.43,
+              "theirs": -0.15
+            },
+            {
+              "week": 5,
+              "yours": -0.81,
+              "theirs": 0.55
+            },
+            {
+              "week": 6,
+              "yours": -0.84,
+              "theirs": 0.96
+            },
+            {
+              "week": 7,
+              "yours": 1.37,
+              "theirs": 0.17
+            },
+            {
+              "week": 8,
+              "yours": -3.94,
+              "theirs": 1.43
+            },
+            {
+              "week": 9,
+              "yours": -1.28,
+              "theirs": 1.85
+            },
+            {
+              "week": 10,
+              "yours": -0.6,
+              "theirs": 0.6
+            },
+            {
+              "week": 11,
+              "yours": -1.38,
+              "theirs": 10.03
+            },
+            {
+              "week": 12,
+              "yours": 0.21,
+              "theirs": -0.59
+            },
+            {
+              "week": 13,
+              "yours": 3.6,
+              "theirs": 0.43
+            },
+            {
+              "week": 14,
+              "yours": 21.27,
+              "theirs": -1.4
+            },
+            {
+              "week": 15,
+              "yours": -0.84,
+              "theirs": 0.83
+            },
+            {
+              "week": 16,
+              "yours": -0.41,
+              "theirs": 0.4
+            },
+            {
+              "week": 17,
+              "yours": -1.03,
+              "theirs": 1.03
+            }
+          ],
+          "yourGaps": [
+            {
+              "position": "QB",
+              "gain": 29.35,
+              "deficit": 18.04
+            },
+            {
+              "position": "WR",
+              "gain": -13.28,
+              "deficit": 10.72
+            },
+            {
+              "position": "FLEX",
+              "gain": -0.32,
+              "deficit": -14.63
+            }
+          ],
+          "theirGaps": [
+            {
+              "position": "WR",
+              "gain": 15.18,
+              "deficit": 15.35
+            },
+            {
+              "position": "FLEX",
+              "gain": 0.06,
+              "deficit": 1.99
+            },
+            {
+              "position": "RB",
+              "gain": 8.65,
+              "deficit": -5.72
+            },
+            {
+              "position": "QB",
+              "gain": -7.75,
+              "deficit": -17.12
+            }
+          ],
+          "team": "Mo#00e98d",
           "format": "2-for-2",
           "give": [
             {
@@ -1225,60 +1558,544 @@
               "slot": "WR",
               "points": null,
               "weekProjection": 11.27,
-              "seasonProjection": 164.72,
+              "seasonProjection": 152.52,
               "ownership": 99.28,
               "status": "ACTIVE",
               "availability": "NORMAL"
             },
             {
-              "name": "Jaylen Warren",
+              "name": "Jacory Croskey-Merritt",
               "position": "RB",
               "slot": "RB",
               "points": null,
-              "weekProjection": 15.04,
-              "seasonProjection": 177.87,
-              "ownership": 91.05,
+              "weekProjection": 9.03,
+              "seasonProjection": 106.53,
+              "ownership": 70.36,
               "status": "ACTIVE",
               "availability": "NORMAL"
             }
           ],
           "receive": [
             {
-              "name": "Bhayshul Tuten",
-              "position": "RB",
-              "slot": "RB",
+              "name": "Malik Nabers",
+              "position": "WR",
+              "slot": "WR",
               "points": null,
-              "weekProjection": 11.85,
-              "seasonProjection": 168.04,
-              "ownership": 92.63,
+              "weekProjection": 11.43,
+              "seasonProjection": 139.49,
+              "ownership": 98.28,
               "status": "ACTIVE",
               "availability": "NORMAL"
             },
             {
-              "name": "Christian Watson",
-              "position": "WR",
-              "slot": "WR",
+              "name": "Jalen Hurts",
+              "position": "QB",
+              "slot": "QB",
               "points": null,
-              "weekProjection": 12.09,
-              "seasonProjection": 176.45,
-              "ownership": 94.31,
+              "weekProjection": 17.61,
+              "seasonProjection": 246.13,
+              "ownership": 98.75,
               "status": "ACTIVE",
               "availability": "NORMAL"
             }
           ],
-          "myGain": 1.9,
-          "theirGain": 1.42,
-          "myWeek": -2.37,
-          "theirWeek": 2.95,
+          "myGain": 15.75,
+          "theirGain": 16.14,
+          "myWeek": 0.44,
+          "theirWeek": -0.16,
+          "verdict": "Worth discussing",
+          "rosterNotes": "",
+          "valueDifference": 3.5
+        },
+        {
+          "weeklyEffects": [
+            {
+              "week": 4,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 5,
+              "yours": -0.33,
+              "theirs": 0.8
+            },
+            {
+              "week": 6,
+              "yours": 0,
+              "theirs": 0.19
+            },
+            {
+              "week": 7,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 8,
+              "yours": 0,
+              "theirs": -13.4
+            },
+            {
+              "week": 9,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 10,
+              "yours": 0,
+              "theirs": 8.76
+            },
+            {
+              "week": 11,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 12,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 13,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 14,
+              "yours": 15.1,
+              "theirs": 7.81
+            },
+            {
+              "week": 15,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 16,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 17,
+              "yours": 0,
+              "theirs": 0
+            }
+          ],
+          "yourGaps": [
+            {
+              "position": "QB",
+              "gain": 15.1,
+              "deficit": 18.04
+            },
+            {
+              "position": "FLEX",
+              "gain": -0.32,
+              "deficit": -14.63
+            }
+          ],
+          "theirGaps": [
+            {
+              "position": "RB",
+              "gain": 16.58,
+              "deficit": 41.82
+            },
+            {
+              "position": "FLEX",
+              "gain": 0.8,
+              "deficit": 18.85
+            },
+            {
+              "position": "QB",
+              "gain": -13.4,
+              "deficit": 4.46
+            },
+            {
+              "position": "WR",
+              "gain": 0.19,
+              "deficit": -47.91
+            }
+          ],
+          "team": "Je#533ee6",
+          "format": "2-for-1",
+          "give": [
+            {
+              "name": "Jacory Croskey-Merritt",
+              "position": "RB",
+              "slot": "RB",
+              "points": null,
+              "weekProjection": 9.03,
+              "seasonProjection": 106.53,
+              "ownership": 70.36,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            },
+            {
+              "name": "Keenan Allen",
+              "position": "WR",
+              "slot": "WR",
+              "points": null,
+              "weekProjection": 8.95,
+              "seasonProjection": 94.67,
+              "ownership": 44.93,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "receive": [
+            {
+              "name": "Justin Herbert",
+              "position": "QB",
+              "slot": "QB",
+              "points": null,
+              "weekProjection": 12.72,
+              "seasonProjection": 188.83,
+              "ownership": 76.37,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "myGain": 14.77,
+          "theirGain": 4.16,
+          "myWeek": 0,
+          "theirWeek": 0,
+          "verdict": "Exploratory only — marginal benefit or near-term cost; hold for now",
+          "rosterNotes": "They must also drop MarShawn Lloyd (RB); that loss is included. You gain 1 open roster spot; no waiver pickup is assumed.",
+          "valueDifference": 0
+        },
+        {
+          "weeklyEffects": [
+            {
+              "week": 4,
+              "yours": 0,
+              "theirs": 1.41
+            },
+            {
+              "week": 5,
+              "yours": -0.33,
+              "theirs": 0
+            },
+            {
+              "week": 6,
+              "yours": 0,
+              "theirs": -0.69
+            },
+            {
+              "week": 7,
+              "yours": 0,
+              "theirs": -1.67
+            },
+            {
+              "week": 8,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 9,
+              "yours": 1.37,
+              "theirs": 0
+            },
+            {
+              "week": 10,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 11,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 12,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 13,
+              "yours": 2.4,
+              "theirs": 8.4
+            },
+            {
+              "week": 14,
+              "yours": 0.32,
+              "theirs": 0
+            },
+            {
+              "week": 15,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 16,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 17,
+              "yours": 0,
+              "theirs": 0
+            }
+          ],
+          "yourGaps": [
+            {
+              "position": "WR",
+              "gain": 0.32,
+              "deficit": 10.72
+            },
+            {
+              "position": "FLEX",
+              "gain": 2.05,
+              "deficit": -14.63
+            },
+            {
+              "position": "TE",
+              "gain": 1.39,
+              "deficit": -6.41
+            }
+          ],
+          "theirGaps": [
+            {
+              "position": "FLEX",
+              "gain": -0.71,
+              "deficit": 13.37
+            },
+            {
+              "position": "TE",
+              "gain": -1.65,
+              "deficit": 1.17
+            },
+            {
+              "position": "RB",
+              "gain": 9.8,
+              "deficit": -23.73
+            },
+            {
+              "position": "WR",
+              "gain": -0.01,
+              "deficit": -31.17
+            }
+          ],
+          "team": "Fu#3a636c",
+          "format": "2-for-2",
+          "give": [
+            {
+              "name": "Jacory Croskey-Merritt",
+              "position": "RB",
+              "slot": "RB",
+              "points": null,
+              "weekProjection": 9.03,
+              "seasonProjection": 106.53,
+              "ownership": 70.36,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            },
+            {
+              "name": "T.J. Hockenson",
+              "position": "TE",
+              "slot": "TE",
+              "points": null,
+              "weekProjection": 6.33,
+              "seasonProjection": 78.46,
+              "ownership": 56.2,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "receive": [
+            {
+              "name": "Tucker Kraft",
+              "position": "TE",
+              "slot": "TE",
+              "points": null,
+              "weekProjection": 6.94,
+              "seasonProjection": 93,
+              "ownership": 86.44,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            },
+            {
+              "name": "Deebo Samuel Sr.",
+              "position": "WR",
+              "slot": "WR",
+              "points": null,
+              "weekProjection": 9.05,
+              "seasonProjection": 120.97,
+              "ownership": 84.81,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "myGain": 3.76,
+          "theirGain": 7.45,
+          "myWeek": 0,
+          "theirWeek": 1.4,
           "verdict": "Exploratory only — marginal benefit or near-term cost; hold for now",
           "rosterNotes": "",
-          "valueDifference": 1.9
+          "valueDifference": 0
+        },
+        {
+          "weeklyEffects": [
+            {
+              "week": 4,
+              "yours": 0,
+              "theirs": 1.02
+            },
+            {
+              "week": 5,
+              "yours": 0.68,
+              "theirs": -0.52
+            },
+            {
+              "week": 6,
+              "yours": 0,
+              "theirs": -5.18
+            },
+            {
+              "week": 7,
+              "yours": 0,
+              "theirs": 0.34
+            },
+            {
+              "week": 8,
+              "yours": 0,
+              "theirs": 2.11
+            },
+            {
+              "week": 9,
+              "yours": 0.52,
+              "theirs": 0.4
+            },
+            {
+              "week": 10,
+              "yours": 0,
+              "theirs": 0.31
+            },
+            {
+              "week": 11,
+              "yours": 0,
+              "theirs": 5.82
+            },
+            {
+              "week": 12,
+              "yours": 0,
+              "theirs": 0.57
+            },
+            {
+              "week": 13,
+              "yours": 0.46,
+              "theirs": -0.45
+            },
+            {
+              "week": 14,
+              "yours": 0,
+              "theirs": 0
+            },
+            {
+              "week": 15,
+              "yours": 0,
+              "theirs": 0.45
+            },
+            {
+              "week": 16,
+              "yours": 0,
+              "theirs": 0.57
+            },
+            {
+              "week": 17,
+              "yours": 0,
+              "theirs": -0.22
+            }
+          ],
+          "yourGaps": [
+            {
+              "position": "FLEX",
+              "gain": 1.2,
+              "deficit": -14.63
+            },
+            {
+              "position": "TE",
+              "gain": 0.45,
+              "deficit": -6.41
+            }
+          ],
+          "theirGaps": [
+            {
+              "position": "TE",
+              "gain": 3.36,
+              "deficit": 48.28
+            },
+            {
+              "position": "RB",
+              "gain": 3.32,
+              "deficit": 97.2
+            },
+            {
+              "position": "FLEX",
+              "gain": -1.44,
+              "deficit": 2.4
+            }
+          ],
+          "team": "KE#ff772c",
+          "format": "2-for-2",
+          "give": [
+            {
+              "name": "Jacory Croskey-Merritt",
+              "position": "RB",
+              "slot": "RB",
+              "points": null,
+              "weekProjection": 9.03,
+              "seasonProjection": 106.53,
+              "ownership": 70.36,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            },
+            {
+              "name": "T.J. Hockenson",
+              "position": "TE",
+              "slot": "TE",
+              "points": null,
+              "weekProjection": 6.33,
+              "seasonProjection": 78.46,
+              "ownership": 56.2,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "receive": [
+            {
+              "name": "Kyle Pitts Sr.",
+              "position": "TE",
+              "slot": "TE",
+              "points": null,
+              "weekProjection": 5.88,
+              "seasonProjection": 75.1,
+              "ownership": 80.95,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            },
+            {
+              "name": "Josh Downs",
+              "position": "WR",
+              "slot": "WR",
+              "points": null,
+              "weekProjection": 11.13,
+              "seasonProjection": 116.58,
+              "ownership": 81.65,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "myGain": 1.66,
+          "theirGain": 5.22,
+          "myWeek": 0,
+          "theirWeek": 1.02,
+          "verdict": "Exploratory only — marginal benefit or near-term cost; hold for now",
+          "rosterNotes": "",
+          "valueDifference": 0
         }
       ],
       "search": {
         "evaluated": 82901,
         "partners": 11,
-        "mutuallyImproving": 8,
+        "mutuallyImproving": 772,
         "formats": [
           "1-for-1",
           "2-for-1",
@@ -1288,6 +2105,7 @@
       }
     },
     {
+      "remainingHorizon": null,
       "actions": null,
       "season": 2026,
       "week": 3,
