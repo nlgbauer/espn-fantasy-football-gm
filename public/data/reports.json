@@ -1,0 +1,1949 @@
+{
+  "schema": 1,
+  "exportedAt": "2026-10-01T15:53:10.926Z",
+  "reports": [
+    {
+      "actions": {
+        "generatedAt": "2026-10-01T15:31:05.951Z",
+        "week": 4,
+        "throughWeek": 8,
+        "basis": "ESPN weekly projections for this week and the next four. Add/drop pairs are alternatives, not cumulative. No acquisition, drop or waiver is executed. Kicker and defense streams replace the incumbent at that position to preserve skill-position depth. Future bye plans require a fresh check that week; injury uncertainty and waiver cost still require review.",
+        "lineup": {
+          "currentPoints": 120.74,
+          "optimalPoints": 120.74,
+          "gain": 0,
+          "status": "Hold — no swap clears the threshold",
+          "moves": [],
+          "starters": [
+            {
+              "name": "Jonathan Taylor",
+              "slot": "RB",
+              "points": 18.98,
+              "bye": 13
+            },
+            {
+              "name": "Kenneth Walker III",
+              "slot": "RB",
+              "points": 18.93,
+              "bye": 5
+            },
+            {
+              "name": "George Pickens",
+              "slot": "WR",
+              "points": 11.27,
+              "bye": 14
+            },
+            {
+              "name": "Davante Adams",
+              "slot": "WR",
+              "points": 12.38,
+              "bye": 11
+            },
+            {
+              "name": "Tyler Warren",
+              "slot": "TE",
+              "points": 10.4,
+              "bye": 13
+            },
+            {
+              "name": "Jaylen Warren",
+              "slot": "FLEX",
+              "points": 15.04,
+              "bye": 9
+            },
+            {
+              "name": "Dak Prescott",
+              "slot": "QB",
+              "points": 17.33,
+              "bye": 14
+            },
+            {
+              "name": "Ka'imi Fairbairn",
+              "slot": "K",
+              "points": 9.9,
+              "bye": 8
+            },
+            {
+              "name": "Chiefs D/ST",
+              "slot": "D/ST",
+              "points": 6.51,
+              "bye": 5
+            }
+          ],
+          "bench": [
+            {
+              "name": "Stefon Diggs",
+              "position": "WR",
+              "points": 9.29,
+              "bye": 7
+            },
+            {
+              "name": "Jacory Croskey-Merritt",
+              "position": "RB",
+              "points": 9.03,
+              "bye": 7
+            },
+            {
+              "name": "Keenan Allen",
+              "position": "WR",
+              "points": 8.95,
+              "bye": 13
+            },
+            {
+              "name": "Rome Odunze",
+              "position": "WR",
+              "points": 8.46,
+              "bye": 10
+            },
+            {
+              "name": "Romeo Doubs",
+              "position": "WR",
+              "points": 8.08,
+              "bye": 11
+            },
+            {
+              "name": "T.J. Hockenson",
+              "position": "TE",
+              "points": 6.33,
+              "bye": 6
+            }
+          ]
+        },
+        "positions": [
+          {
+            "position": "WR",
+            "rank": 7,
+            "strength": 342.29,
+            "leagueMean": 355.09,
+            "starters": [
+              {
+                "name": "Davante Adams",
+                "points": 12.38
+              },
+              {
+                "name": "George Pickens",
+                "points": 11.27
+              }
+            ],
+            "proposal": {
+              "add": {
+                "name": "Wan'Dale Robinson",
+                "position": "WR",
+                "bye": 9,
+                "proTeam": "TEN",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 6.95,
+                  "5": 6.83,
+                  "6": 7.29,
+                  "7": 6.91,
+                  "8": 7.03
+                }
+              },
+              "drop": {
+                "name": "Romeo Doubs",
+                "position": "WR",
+                "bye": 11,
+                "proTeam": "NE",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 8.08,
+                  "5": 7.86,
+                  "6": 7.78,
+                  "7": 7.71,
+                  "8": 6.16
+                }
+              },
+              "availability": "FREEAGENT",
+              "gains": [
+                {
+                  "week": 4,
+                  "gain": 0
+                },
+                {
+                  "week": 5,
+                  "gain": 0
+                },
+                {
+                  "week": 6,
+                  "gain": 0
+                },
+                {
+                  "week": 7,
+                  "gain": 0
+                },
+                {
+                  "week": 8,
+                  "gain": 0
+                }
+              ],
+              "totalGain": 0,
+              "recommended": false,
+              "status": "Proposed — not executed"
+            }
+          },
+          {
+            "position": "QB",
+            "rank": 6,
+            "strength": 263.03,
+            "leagueMean": 263.41,
+            "starters": [
+              {
+                "name": "Dak Prescott",
+                "points": 17.33
+              }
+            ],
+            "proposal": {
+              "add": {
+                "name": "Sam Darnold",
+                "position": "QB",
+                "bye": 11,
+                "proTeam": "SEA",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 16.21,
+                  "5": 15.4,
+                  "6": 13.84,
+                  "7": 15.11,
+                  "8": 16.13
+                }
+              },
+              "drop": {
+                "name": "Rome Odunze",
+                "position": "WR",
+                "bye": 10,
+                "proTeam": "CHI",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 8.46,
+                  "5": 8.6,
+                  "6": 8.23,
+                  "7": 8.12,
+                  "8": 7.78
+                }
+              },
+              "availability": "FREEAGENT",
+              "gains": [
+                {
+                  "week": 4,
+                  "gain": 0
+                },
+                {
+                  "week": 5,
+                  "gain": 0
+                },
+                {
+                  "week": 6,
+                  "gain": 0
+                },
+                {
+                  "week": 7,
+                  "gain": 0
+                },
+                {
+                  "week": 8,
+                  "gain": 0
+                }
+              ],
+              "totalGain": 0,
+              "recommended": false,
+              "status": "Proposed — not executed"
+            }
+          }
+        ],
+        "pickups": [
+          {
+            "add": {
+              "name": "Jets D/ST",
+              "position": "D/ST",
+              "bye": 13,
+              "proTeam": "NYJ",
+              "injury": "ACTIVE",
+              "forecast": {
+                "4": 6.67,
+                "5": 8.02,
+                "6": 5.73,
+                "7": 7.06,
+                "8": 6.29
+              }
+            },
+            "drop": {
+              "name": "Chiefs D/ST",
+              "position": "D/ST",
+              "bye": 5,
+              "proTeam": "KC",
+              "injury": "ACTIVE",
+              "forecast": {
+                "4": 6.51,
+                "5": 0,
+                "6": 6.79,
+                "7": 4.86,
+                "8": 5
+              }
+            },
+            "availability": "FREEAGENT",
+            "gains": [
+              {
+                "week": 4,
+                "gain": 0.16
+              },
+              {
+                "week": 5,
+                "gain": 8.02
+              },
+              {
+                "week": 6,
+                "gain": -1.06
+              },
+              {
+                "week": 7,
+                "gain": 2.2
+              },
+              {
+                "week": 8,
+                "gain": 1.29
+              }
+            ],
+            "totalGain": 10.61,
+            "recommended": true,
+            "status": "Proposed — not executed"
+          }
+        ],
+        "byes": [
+          {
+            "week": 5,
+            "absent": [
+              {
+                "name": "Kenneth Walker III",
+                "position": "RB",
+                "starter": true
+              },
+              {
+                "name": "Chiefs D/ST",
+                "position": "D/ST",
+                "starter": true
+              }
+            ],
+            "replacements": [
+              {
+                "name": "Jaylen Warren",
+                "slot": "RB",
+                "points": 13.51
+              },
+              {
+                "name": "Jacory Croskey-Merritt",
+                "slot": "FLEX",
+                "points": 9.54
+              }
+            ],
+            "gaps": [
+              "D/ST"
+            ],
+            "complete": false,
+            "proposal": {
+              "add": {
+                "name": "Jets D/ST",
+                "position": "D/ST",
+                "bye": 13,
+                "proTeam": "NYJ",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 6.67,
+                  "5": 8.02,
+                  "6": 5.73,
+                  "7": 7.06,
+                  "8": 6.29
+                }
+              },
+              "drop": {
+                "name": "Chiefs D/ST",
+                "position": "D/ST",
+                "bye": 5,
+                "proTeam": "KC",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 6.51,
+                  "5": 0,
+                  "6": 6.79,
+                  "7": 4.86,
+                  "8": 5
+                }
+              },
+              "availability": "FREEAGENT",
+              "gains": [
+                {
+                  "week": 4,
+                  "gain": 0.16
+                },
+                {
+                  "week": 5,
+                  "gain": 8.02
+                },
+                {
+                  "week": 6,
+                  "gain": -1.06
+                },
+                {
+                  "week": 7,
+                  "gain": 2.2
+                },
+                {
+                  "week": 8,
+                  "gain": 1.29
+                }
+              ],
+              "totalGain": 10.61,
+              "recommended": true,
+              "status": "Proposed — not executed"
+            }
+          },
+          {
+            "week": 6,
+            "absent": [
+              {
+                "name": "T.J. Hockenson",
+                "position": "TE",
+                "starter": false
+              }
+            ],
+            "replacements": [],
+            "gaps": [],
+            "complete": true,
+            "proposal": null
+          },
+          {
+            "week": 7,
+            "absent": [
+              {
+                "name": "Stefon Diggs",
+                "position": "WR",
+                "starter": false
+              },
+              {
+                "name": "Jacory Croskey-Merritt",
+                "position": "RB",
+                "starter": false
+              }
+            ],
+            "replacements": [],
+            "gaps": [],
+            "complete": true,
+            "proposal": null
+          },
+          {
+            "week": 8,
+            "absent": [
+              {
+                "name": "Ka'imi Fairbairn",
+                "position": "K",
+                "starter": true
+              }
+            ],
+            "replacements": [],
+            "gaps": [
+              "K"
+            ],
+            "complete": false,
+            "proposal": {
+              "add": {
+                "name": "Harrison Mevis",
+                "position": "K",
+                "bye": 11,
+                "proTeam": "LAR",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 8.54,
+                  "5": 9.46,
+                  "6": 9.65,
+                  "7": 8.82,
+                  "8": 9.26
+                }
+              },
+              "drop": {
+                "name": "Ka'imi Fairbairn",
+                "position": "K",
+                "bye": 8,
+                "proTeam": "HOU",
+                "injury": "ACTIVE",
+                "forecast": {
+                  "4": 9.9,
+                  "5": 9.34,
+                  "6": 9.08,
+                  "7": 9.89,
+                  "8": 0
+                }
+              },
+              "availability": "FREEAGENT",
+              "gains": [
+                {
+                  "week": 4,
+                  "gain": -1.36
+                },
+                {
+                  "week": 5,
+                  "gain": 0.12
+                },
+                {
+                  "week": 6,
+                  "gain": 0.57
+                },
+                {
+                  "week": 7,
+                  "gain": -1.07
+                },
+                {
+                  "week": 8,
+                  "gain": 9.26
+                }
+              ],
+              "totalGain": 7.52,
+              "recommended": false,
+              "status": "Proposed — not executed"
+            }
+          }
+        ]
+      },
+      "season": 2026,
+      "week": 4,
+      "generatedAt": "2026-10-01T15:31:04.726Z",
+      "team": "Walker Kelce Rangers",
+      "comparisons": {
+        "throughWeek": 3,
+        "weeks": [
+          {
+            "week": 1,
+            "myPoints": 108,
+            "leaguePoints": 106.2,
+            "myEfficiency": 84.38,
+            "leagueEfficiency": 83.8,
+            "verifiedTeams": 12,
+            "teamCount": 12
+          },
+          {
+            "week": 2,
+            "myPoints": 160.86,
+            "leaguePoints": 101.18,
+            "myEfficiency": 97.51,
+            "leagueEfficiency": 86.23,
+            "verifiedTeams": 12,
+            "teamCount": 12
+          },
+          {
+            "week": 3,
+            "myPoints": 109.64,
+            "leaguePoints": 101.1,
+            "myEfficiency": 93.92,
+            "leagueEfficiency": 87.39,
+            "verifiedTeams": 12,
+            "teamCount": 12
+          }
+        ],
+        "points": {
+          "week": 109.64,
+          "average": 126.17,
+          "leagueWeek": 101.1,
+          "leagueAverage": 102.83
+        },
+        "efficiency": {
+          "week": 93.92,
+          "average": 91.94,
+          "leagueWeek": 87.39,
+          "leagueAverage": 85.81
+        },
+        "definition": "Efficiency = actual starting points / hindsight best legal lineup points. Season averages are arithmetic averages of completed weeks. Missing or mismatched historical rosters are excluded and aggregate efficiency is unavailable if coverage is incomplete."
+      },
+      "sample": false,
+      "needs": [
+        {
+          "position": "WR",
+          "rank": 7,
+          "leagueSize": 12,
+          "strength": 342.29,
+          "min": 275.92,
+          "max": 423.65,
+          "mean": 355.09,
+          "p74": 402.56,
+          "median": 349.02,
+          "lower": 325.38,
+          "upper": 402.85,
+          "deficit": 6.73
+        },
+        {
+          "position": "D/ST",
+          "rank": 7,
+          "leagueSize": 12,
+          "strength": 92.1,
+          "min": 58.93,
+          "max": 108.23,
+          "mean": 88.48,
+          "p74": 98.93,
+          "median": 92.51,
+          "lower": 81.51,
+          "upper": 99.22,
+          "deficit": 0.41
+        },
+        {
+          "position": "QB",
+          "rank": 6,
+          "leagueSize": 12,
+          "strength": 263.03,
+          "min": 233.57,
+          "max": 318.06,
+          "mean": 263.41,
+          "p74": 267.69,
+          "median": 262.44,
+          "lower": 247.58,
+          "upper": 268.58,
+          "deficit": -0.58
+        },
+        {
+          "position": "TE",
+          "rank": 4,
+          "leagueSize": 12,
+          "strength": 133.37,
+          "min": 80.76,
+          "max": 190.71,
+          "mean": 131.01,
+          "p74": 137.6,
+          "median": 126.91,
+          "lower": 114.78,
+          "upper": 140.92,
+          "deficit": -6.47
+        },
+        {
+          "position": "K",
+          "rank": 3,
+          "leagueSize": 12,
+          "strength": 131.75,
+          "min": 119.78,
+          "max": 140.62,
+          "mean": 126.23,
+          "p74": 131.17,
+          "median": 124.24,
+          "lower": 121.42,
+          "upper": 131.24,
+          "deficit": -7.51
+        },
+        {
+          "position": "FLEX",
+          "rank": 1,
+          "leagueSize": 12,
+          "strength": 177.87,
+          "min": 126.55,
+          "max": 177.87,
+          "mean": 155.76,
+          "p74": 172.68,
+          "median": 155.41,
+          "lower": 141.94,
+          "upper": 172.83,
+          "deficit": -22.46
+        },
+        {
+          "position": "RB",
+          "rank": 1,
+          "leagueSize": 12,
+          "strength": 517.51,
+          "min": 298.45,
+          "max": 517.51,
+          "mean": 407.1,
+          "p74": 455.48,
+          "median": 421.47,
+          "lower": 321.52,
+          "upper": 455.84,
+          "deficit": -96.04
+        }
+      ],
+      "performance": {
+        "week": 3,
+        "starters": [
+          {
+            "name": "Kenneth Walker III",
+            "position": "RB",
+            "slot": "RB",
+            "points": 20.3,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Jaylen Warren",
+            "position": "RB",
+            "slot": "FLEX",
+            "points": 19.1,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Dak Prescott",
+            "position": "QB",
+            "slot": "QB",
+            "points": 18.94,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Davante Adams",
+            "position": "WR",
+            "slot": "WR",
+            "points": 17.2,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "George Pickens",
+            "position": "WR",
+            "slot": "WR",
+            "points": 11.7,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Tyler Warren",
+            "position": "TE",
+            "slot": "TE",
+            "points": 10.2,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Jonathan Taylor",
+            "position": "RB",
+            "slot": "RB",
+            "points": 8.2,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Ka'imi Fairbairn",
+            "position": "K",
+            "slot": "K",
+            "points": 5,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Eagles D/ST",
+            "position": "D/ST",
+            "slot": "D/ST",
+            "points": -1,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          }
+        ],
+        "bench": [
+          {
+            "name": "Keenan Allen",
+            "position": "WR",
+            "slot": "WR",
+            "points": 15.3,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Romeo Doubs",
+            "position": "WR",
+            "slot": "WR",
+            "points": 6.4,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Rome Odunze",
+            "position": "WR",
+            "slot": "WR",
+            "points": 5.9,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Stefon Diggs",
+            "position": "WR",
+            "slot": "WR",
+            "points": 5.3,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Jacory Croskey-Merritt",
+            "position": "RB",
+            "slot": "RB",
+            "points": 4.8,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "slot": "TE",
+            "points": 2.1,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          }
+        ],
+        "total": 109.64,
+        "optimal": 116.74,
+        "missed": 7.1
+      },
+      "pickups": [
+        {
+          "name": "Geno Smith",
+          "position": "QB",
+          "slot": "QB",
+          "points": null,
+          "weekProjection": 15.28,
+          "seasonProjection": 217.06,
+          "ownership": 8.74,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Dak Prescott",
+            "position": "QB",
+            "slot": "QB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 263.03,
+            "ownership": null
+          },
+          "upgrade": -45.97,
+          "weeklyLineupGain": -2.05,
+          "seasonLineupGain": -45.97
+        },
+        {
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "slot": "QB",
+          "points": null,
+          "weekProjection": 16.98,
+          "seasonProjection": 216.68,
+          "ownership": 37.01,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Dak Prescott",
+            "position": "QB",
+            "slot": "QB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 263.03,
+            "ownership": null
+          },
+          "upgrade": -46.35,
+          "weeklyLineupGain": -0.35,
+          "seasonLineupGain": -46.35
+        },
+        {
+          "name": "Sam Darnold",
+          "position": "QB",
+          "slot": "QB",
+          "points": null,
+          "weekProjection": 16.21,
+          "seasonProjection": 216.52,
+          "ownership": 49.28,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Dak Prescott",
+            "position": "QB",
+            "slot": "QB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 263.03,
+            "ownership": null
+          },
+          "upgrade": -46.51,
+          "weeklyLineupGain": -1.12,
+          "seasonLineupGain": -46.51
+        },
+        {
+          "name": "Jaylen Wright",
+          "position": "RB",
+          "slot": "RB",
+          "points": null,
+          "weekProjection": 6.62,
+          "seasonProjection": 109.62,
+          "ownership": 19.19,
+          "status": "QUESTIONABLE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Jacory Croskey-Merritt",
+            "position": "RB",
+            "slot": "RB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 115.41,
+            "ownership": null
+          },
+          "upgrade": -5.79,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "Tyler Allgeier",
+          "position": "RB",
+          "slot": "RB",
+          "points": null,
+          "weekProjection": 7,
+          "seasonProjection": 93.42,
+          "ownership": 29.44,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Jacory Croskey-Merritt",
+            "position": "RB",
+            "slot": "RB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 115.41,
+            "ownership": null
+          },
+          "upgrade": -21.99,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "slot": "RB",
+          "points": null,
+          "weekProjection": 5.84,
+          "seasonProjection": 79.36,
+          "ownership": 26.06,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Jacory Croskey-Merritt",
+            "position": "RB",
+            "slot": "RB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 115.41,
+            "ownership": null
+          },
+          "upgrade": -36.05,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "slot": "WR",
+          "points": null,
+          "weekProjection": 7.75,
+          "seasonProjection": 113.71,
+          "ownership": 3.97,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Romeo Doubs",
+            "position": "WR",
+            "slot": "WR",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 90.64,
+            "ownership": null
+          },
+          "upgrade": 23.07,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "slot": "WR",
+          "points": null,
+          "weekProjection": 6.95,
+          "seasonProjection": 99.71,
+          "ownership": 64.94,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Romeo Doubs",
+            "position": "WR",
+            "slot": "WR",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 90.64,
+            "ownership": null
+          },
+          "upgrade": 9.07,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "slot": "WR",
+          "points": null,
+          "weekProjection": 7.09,
+          "seasonProjection": 97.87,
+          "ownership": 36.46,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Romeo Doubs",
+            "position": "WR",
+            "slot": "WR",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 90.64,
+            "ownership": null
+          },
+          "upgrade": 7.23,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "AJ Barner",
+          "position": "TE",
+          "slot": "TE",
+          "points": null,
+          "weekProjection": 6.66,
+          "seasonProjection": 91.5,
+          "ownership": 7.49,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "slot": "TE",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 84.38,
+            "ownership": null
+          },
+          "upgrade": 7.12,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "Brenton Strange",
+          "position": "TE",
+          "slot": "TE",
+          "points": null,
+          "weekProjection": 6.44,
+          "seasonProjection": 90.67,
+          "ownership": 17.08,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "slot": "TE",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 84.38,
+            "ownership": null
+          },
+          "upgrade": 6.29,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "slot": "TE",
+          "points": null,
+          "weekProjection": 6.45,
+          "seasonProjection": 90.31,
+          "ownership": 19.97,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "slot": "TE",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 84.38,
+            "ownership": null
+          },
+          "upgrade": 5.93,
+          "weeklyLineupGain": 0,
+          "seasonLineupGain": 0
+        },
+        {
+          "name": "Harrison Mevis",
+          "position": "K",
+          "slot": "K",
+          "points": null,
+          "weekProjection": 8.54,
+          "seasonProjection": 126.04,
+          "ownership": 71.3,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Ka'imi Fairbairn",
+            "position": "K",
+            "slot": "K",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 131.75,
+            "ownership": null
+          },
+          "upgrade": -5.71,
+          "weeklyLineupGain": -1.36,
+          "seasonLineupGain": -5.71
+        },
+        {
+          "name": "Daniel Carlson",
+          "position": "K",
+          "slot": "K",
+          "points": null,
+          "weekProjection": 8.92,
+          "seasonProjection": 121.41,
+          "ownership": 4.59,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Ka'imi Fairbairn",
+            "position": "K",
+            "slot": "K",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 131.75,
+            "ownership": null
+          },
+          "upgrade": -10.34,
+          "weeklyLineupGain": -0.98,
+          "seasonLineupGain": -10.34
+        },
+        {
+          "name": "Trey Smack",
+          "position": "K",
+          "slot": "K",
+          "points": null,
+          "weekProjection": 8.12,
+          "seasonProjection": 120.08,
+          "ownership": 19.88,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Ka'imi Fairbairn",
+            "position": "K",
+            "slot": "K",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 131.75,
+            "ownership": null
+          },
+          "upgrade": -11.67,
+          "weeklyLineupGain": -1.78,
+          "seasonLineupGain": -11.67
+        },
+        {
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "points": null,
+          "weekProjection": 3.17,
+          "seasonProjection": 92.83,
+          "ownership": 79.03,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Chiefs D/ST",
+            "position": "D/ST",
+            "slot": "D/ST",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 92.1,
+            "ownership": null
+          },
+          "upgrade": 0.73,
+          "weeklyLineupGain": -3.34,
+          "seasonLineupGain": 0.73
+        },
+        {
+          "name": "Jaguars D/ST",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "points": null,
+          "weekProjection": 5.08,
+          "seasonProjection": 91.67,
+          "ownership": 27.68,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Chiefs D/ST",
+            "position": "D/ST",
+            "slot": "D/ST",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 92.1,
+            "ownership": null
+          },
+          "upgrade": -0.43,
+          "weeklyLineupGain": -1.43,
+          "seasonLineupGain": -0.43
+        },
+        {
+          "name": "Jets D/ST",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "points": null,
+          "weekProjection": 6.67,
+          "seasonProjection": 85.46,
+          "ownership": 8.4,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Chiefs D/ST",
+            "position": "D/ST",
+            "slot": "D/ST",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 92.1,
+            "ownership": null
+          },
+          "upgrade": -6.64,
+          "weeklyLineupGain": 0.16,
+          "seasonLineupGain": -6.64
+        }
+      ],
+      "trades": [
+        {
+          "team": "Gl#3c6728",
+          "format": "2-for-2",
+          "give": [
+            {
+              "name": "George Pickens",
+              "position": "WR",
+              "slot": "WR",
+              "points": null,
+              "weekProjection": 11.27,
+              "seasonProjection": 164.72,
+              "ownership": 99.28,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            },
+            {
+              "name": "Jaylen Warren",
+              "position": "RB",
+              "slot": "RB",
+              "points": null,
+              "weekProjection": 15.04,
+              "seasonProjection": 177.87,
+              "ownership": 91.05,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "receive": [
+            {
+              "name": "Bhayshul Tuten",
+              "position": "RB",
+              "slot": "RB",
+              "points": null,
+              "weekProjection": 11.85,
+              "seasonProjection": 168.04,
+              "ownership": 92.63,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            },
+            {
+              "name": "Christian Watson",
+              "position": "WR",
+              "slot": "WR",
+              "points": null,
+              "weekProjection": 12.09,
+              "seasonProjection": 176.45,
+              "ownership": 94.31,
+              "status": "ACTIVE",
+              "availability": "NORMAL"
+            }
+          ],
+          "myGain": 1.9,
+          "theirGain": 1.42,
+          "myWeek": -2.37,
+          "theirWeek": 2.95,
+          "verdict": "Exploratory only — marginal benefit or near-term cost; hold for now",
+          "rosterNotes": "",
+          "valueDifference": 1.9
+        }
+      ],
+      "search": {
+        "evaluated": 82901,
+        "partners": 11,
+        "mutuallyImproving": 8,
+        "formats": [
+          "1-for-1",
+          "2-for-1",
+          "1-for-2",
+          "2-for-2"
+        ]
+      }
+    },
+    {
+      "actions": null,
+      "season": 2026,
+      "week": 3,
+      "generatedAt": "2026-09-27T17:17:26.628Z",
+      "team": "Walker Kelce Rangers",
+      "comparisons": null,
+      "sample": true,
+      "needs": [
+        {
+          "position": "WR",
+          "rank": 8,
+          "leagueSize": 12,
+          "strength": 359.76,
+          "min": null,
+          "max": null,
+          "mean": null,
+          "p74": null,
+          "median": 377.28,
+          "lower": 344.63,
+          "upper": 418.86,
+          "deficit": 17.52
+        },
+        {
+          "position": "QB",
+          "rank": 9,
+          "leagueSize": 12,
+          "strength": 270.01,
+          "min": null,
+          "max": null,
+          "mean": null,
+          "p74": null,
+          "median": 276.06,
+          "lower": 269.66,
+          "upper": 289.9,
+          "deficit": 6.05
+        },
+        {
+          "position": "D/ST",
+          "rank": 5,
+          "leagueSize": 12,
+          "strength": 101.7,
+          "min": null,
+          "max": null,
+          "mean": null,
+          "p74": null,
+          "median": 96.77,
+          "lower": 88.98,
+          "upper": 106.58,
+          "deficit": -4.93
+        },
+        {
+          "position": "TE",
+          "rank": 5,
+          "leagueSize": 12,
+          "strength": 146.14,
+          "min": null,
+          "max": null,
+          "mean": null,
+          "p74": null,
+          "median": 138.31,
+          "lower": 119.79,
+          "upper": 148.31,
+          "deficit": -7.82
+        },
+        {
+          "position": "K",
+          "rank": 2,
+          "leagueSize": 12,
+          "strength": 139.51,
+          "min": null,
+          "max": null,
+          "mean": null,
+          "p74": null,
+          "median": 131.09,
+          "lower": 129.44,
+          "upper": 138.28,
+          "deficit": -8.41
+        },
+        {
+          "position": "RB",
+          "rank": 1,
+          "leagueSize": 12,
+          "strength": 567.78,
+          "min": null,
+          "max": null,
+          "mean": null,
+          "p74": null,
+          "median": 458.85,
+          "lower": 389.81,
+          "upper": 475.55,
+          "deficit": -108.93
+        }
+      ],
+      "performance": {
+        "week": 3,
+        "starters": [
+          {
+            "name": "Kenneth Walker III",
+            "position": "RB",
+            "slot": "RB",
+            "points": 7.4,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Jaylen Warren",
+            "position": "RB",
+            "slot": "RB",
+            "points": 3.5,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Tyler Warren",
+            "position": "TE",
+            "slot": "TE",
+            "points": 1.4,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Dak Prescott",
+            "position": "QB",
+            "slot": "QB",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Davante Adams",
+            "position": "WR",
+            "slot": "WR",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Eagles D/ST",
+            "position": "D/ST",
+            "slot": "D/ST",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "George Pickens",
+            "position": "WR",
+            "slot": "WR",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Jonathan Taylor",
+            "position": "RB",
+            "slot": "RB",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Ka'imi Fairbairn",
+            "position": "K",
+            "slot": "K",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          }
+        ],
+        "bench": [
+          {
+            "name": "Jacory Croskey-Merritt",
+            "position": "RB",
+            "slot": "RB",
+            "points": 1.2,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Keenan Allen",
+            "position": "WR",
+            "slot": "WR",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Rome Odunze",
+            "position": "WR",
+            "slot": "WR",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Romeo Doubs",
+            "position": "WR",
+            "slot": "WR",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "Stefon Diggs",
+            "position": "WR",
+            "slot": "WR",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          },
+          {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "slot": "TE",
+            "points": 0,
+            "weekProjection": null,
+            "seasonProjection": null,
+            "ownership": null
+          }
+        ],
+        "total": 12.3,
+        "optimal": 13.5,
+        "missed": 1.2
+      },
+      "pickups": [
+        {
+          "name": "C.J. Stroud",
+          "position": "QB",
+          "slot": "QB",
+          "points": null,
+          "weekProjection": 16.24,
+          "seasonProjection": 236.3,
+          "ownership": 39.2,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Dak Prescott",
+            "position": "QB",
+            "slot": "QB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 270.01,
+            "ownership": null
+          },
+          "upgrade": -33.71,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Sam Darnold",
+          "position": "QB",
+          "slot": "QB",
+          "points": null,
+          "weekProjection": 15.96,
+          "seasonProjection": 225.21,
+          "ownership": 33.59,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Dak Prescott",
+            "position": "QB",
+            "slot": "QB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 270.01,
+            "ownership": null
+          },
+          "upgrade": -44.8,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Malik Willis",
+          "position": "QB",
+          "slot": "QB",
+          "points": null,
+          "weekProjection": 14.82,
+          "seasonProjection": 223.12,
+          "ownership": 14.33,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Dak Prescott",
+            "position": "QB",
+            "slot": "QB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 270.01,
+            "ownership": null
+          },
+          "upgrade": -46.89,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Braelon Allen",
+          "position": "RB",
+          "slot": "RB",
+          "points": null,
+          "weekProjection": 6.02,
+          "seasonProjection": 89.18,
+          "ownership": 13.94,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Jacory Croskey-Merritt",
+            "position": "RB",
+            "slot": "RB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 133.37,
+            "ownership": null
+          },
+          "upgrade": -44.19,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Justice Hill",
+          "position": "RB",
+          "slot": "RB",
+          "points": null,
+          "weekProjection": 5.69,
+          "seasonProjection": 84.52,
+          "ownership": 13.89,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Jacory Croskey-Merritt",
+            "position": "RB",
+            "slot": "RB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 133.37,
+            "ownership": null
+          },
+          "upgrade": -48.85,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Brian Robinson Jr.",
+          "position": "RB",
+          "slot": "RB",
+          "points": null,
+          "weekProjection": 5.36,
+          "seasonProjection": 84.03,
+          "ownership": 21.61,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Jacory Croskey-Merritt",
+            "position": "RB",
+            "slot": "RB",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 133.37,
+            "ownership": null
+          },
+          "upgrade": -49.34,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Rashid Shaheed",
+          "position": "WR",
+          "slot": "WR",
+          "points": null,
+          "weekProjection": 9.41,
+          "seasonProjection": 136.25,
+          "ownership": 40.79,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Keenan Allen",
+            "position": "WR",
+            "slot": "WR",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 106.12,
+            "ownership": null
+          },
+          "upgrade": 30.13,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Malachi Fields",
+          "position": "WR",
+          "slot": "WR",
+          "points": null,
+          "weekProjection": 6.85,
+          "seasonProjection": 101.08,
+          "ownership": 10.36,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Keenan Allen",
+            "position": "WR",
+            "slot": "WR",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 106.12,
+            "ownership": null
+          },
+          "upgrade": -5.04,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "slot": "WR",
+          "points": null,
+          "weekProjection": 6.41,
+          "seasonProjection": 97.71,
+          "ownership": 3.38,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Keenan Allen",
+            "position": "WR",
+            "slot": "WR",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 106.12,
+            "ownership": null
+          },
+          "upgrade": -8.41,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Brenton Strange",
+          "position": "TE",
+          "slot": "TE",
+          "points": null,
+          "weekProjection": 6.27,
+          "seasonProjection": 95.55,
+          "ownership": 18.05,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "slot": "TE",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 106.25,
+            "ownership": null
+          },
+          "upgrade": -10.7,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Pat Freiermuth",
+          "position": "TE",
+          "slot": "TE",
+          "points": null,
+          "weekProjection": 6.44,
+          "seasonProjection": 94.24,
+          "ownership": 21.73,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "slot": "TE",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 106.25,
+            "ownership": null
+          },
+          "upgrade": -12.01,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Gunnar Helm",
+          "position": "TE",
+          "slot": "TE",
+          "points": null,
+          "weekProjection": 6.12,
+          "seasonProjection": 91.72,
+          "ownership": 4,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "T.J. Hockenson",
+            "position": "TE",
+            "slot": "TE",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 106.25,
+            "ownership": null
+          },
+          "upgrade": -14.53,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Harrison Mevis",
+          "position": "K",
+          "slot": "K",
+          "points": null,
+          "weekProjection": 8.31,
+          "seasonProjection": 134.35,
+          "ownership": 73.07,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Ka'imi Fairbairn",
+            "position": "K",
+            "slot": "K",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 139.51,
+            "ownership": null
+          },
+          "upgrade": -5.16,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Trey Smack",
+          "position": "K",
+          "slot": "K",
+          "points": null,
+          "weekProjection": 9.21,
+          "seasonProjection": 131.34,
+          "ownership": 29.82,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Ka'imi Fairbairn",
+            "position": "K",
+            "slot": "K",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 139.51,
+            "ownership": null
+          },
+          "upgrade": -8.17,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Daniel Carlson",
+          "position": "K",
+          "slot": "K",
+          "points": null,
+          "weekProjection": 8.84,
+          "seasonProjection": 128.91,
+          "ownership": 5.53,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Ka'imi Fairbairn",
+            "position": "K",
+            "slot": "K",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 139.51,
+            "ownership": null
+          },
+          "upgrade": -10.6,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Broncos D/ST",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "points": null,
+          "weekProjection": 3.81,
+          "seasonProjection": 105.14,
+          "ownership": 82.17,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Eagles D/ST",
+            "position": "D/ST",
+            "slot": "D/ST",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 101.7,
+            "ownership": null
+          },
+          "upgrade": 3.44,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Vikings D/ST",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "points": null,
+          "weekProjection": 6.49,
+          "seasonProjection": 101.03,
+          "ownership": 46.42,
+          "status": "ACTIVE",
+          "availability": "FREEAGENT",
+          "compare": {
+            "name": "Eagles D/ST",
+            "position": "D/ST",
+            "slot": "D/ST",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 101.7,
+            "ownership": null
+          },
+          "upgrade": -0.67,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        },
+        {
+          "name": "Jets D/ST",
+          "position": "D/ST",
+          "slot": "D/ST",
+          "points": null,
+          "weekProjection": 3.75,
+          "seasonProjection": 92.93,
+          "ownership": 2.6,
+          "status": "ACTIVE",
+          "availability": "WAIVERS",
+          "compare": {
+            "name": "Eagles D/ST",
+            "position": "D/ST",
+            "slot": "D/ST",
+            "points": null,
+            "weekProjection": null,
+            "seasonProjection": 101.7,
+            "ownership": null
+          },
+          "upgrade": -8.77,
+          "weeklyLineupGain": null,
+          "seasonLineupGain": null
+        }
+      ],
+      "trades": [],
+      "search": null
+    }
+  ]
+}
